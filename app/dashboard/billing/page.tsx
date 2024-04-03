@@ -206,7 +206,7 @@ export default async function BillingPage() {
             <span className="ml-1 text-2xl text-muted-foreground">/mo</span>
           </div>
           <p className="mt-5 text-lg text-muted-foreground">
-            Subscribe us for a month and get
+            Subscribe for a month and get
           </p>
         </CardContent>
         <div className="flex-1 flex flex-col justify-between px-6 pt-6 pb-8 bg-secondary rounded-lg m-1 space-y-6 sm:p-10 sm:pt-6">
@@ -229,7 +229,7 @@ export default async function BillingPage() {
         <CardContent className="py-8">
           <div>
             <h3 className="inline-flex px-4 py-1 rounded-full text-sm font-semibold tracking-wide uppercase bg-primary/10 text-primary">
-              Half Yearly
+              Coming Soon
             </h3>
           </div>
           <div className="mt-4 flex items-baseline text-6xl font-extrabold">
@@ -237,7 +237,7 @@ export default async function BillingPage() {
             <span className="ml-1 text-2xl text-muted-foreground">/hy</span>
           </div>
           <p className="mt-5 text-lg text-muted-foreground">
-            Subscribe us for 6 months and get
+            Subscribe for 6 months and get
           </p>
         </CardContent>
         <div className="flex-1 flex flex-col justify-between px-6 pt-6 pb-8 bg-secondary rounded-lg m-1 space-y-6 sm:p-10 sm:pt-6">
@@ -251,16 +251,16 @@ export default async function BillingPage() {
               </li>
             ))}
           </ul>
-          <form className="w-full" action={createSubscription2}>
+{/*           <form className="w-full" action={createSubscription2}>
             <StripeSubscriptionCreationButton />
-          </form>
+          </form> */}
         </div>
       </Card>
       <Card className="flex flex-col flex-1">
         <CardContent className="py-8">
           <div>
             <h3 className="inline-flex px-4 py-1 rounded-full text-sm font-semibold tracking-wide uppercase bg-primary/10 text-primary">
-              Yearly
+              Coming Soon
             </h3>
           </div>
           <div className="mt-4 flex items-baseline text-6xl font-extrabold">
@@ -268,7 +268,7 @@ export default async function BillingPage() {
             <span className="ml-1 text-2xl text-muted-foreground">/y</span>
           </div>
           <p className="mt-5 text-lg text-muted-foreground">
-            Subscribe us for a year and get
+            Subscribe for a year and get
           </p>
         </CardContent>
         <div className="flex-1 flex flex-col justify-between px-6 pt-6 pb-8 bg-secondary rounded-lg m-1 space-y-6 sm:p-10 sm:pt-6">
@@ -282,9 +282,9 @@ export default async function BillingPage() {
               </li>
             ))}
           </ul>
-          <form className="w-full" action={createSubscription3}>
+{/*           <form className="w-full" action={createSubscription3}>
             <StripeSubscriptionCreationButton />
-          </form>
+          </form> */}
         </div>
       </Card>
     </div>
