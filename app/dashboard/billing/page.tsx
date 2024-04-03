@@ -194,7 +194,7 @@ export default async function BillingPage() {
 
   return (
     <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 m-4">
-      <Card className="flex flex-col flex-1">
+      <Card className="flex flex-col">
         <CardContent className="py-8">
           <div>
             <h3 className="inline-flex px-4 py-1 rounded-full text-sm font-semibold tracking-wide uppercase bg-primary/10 text-primary">
