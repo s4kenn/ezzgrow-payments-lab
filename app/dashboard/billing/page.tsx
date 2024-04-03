@@ -225,7 +225,7 @@ export default async function BillingPage() {
           </form>
         </div>
       </Card>
-      <Card className="flex flex-col flex-1">
+{/*       <Card className="flex flex-col flex-1">
         <CardContent className="py-8">
           <div>
             <h3 className="inline-flex px-4 py-1 rounded-full text-sm font-semibold tracking-wide uppercase bg-primary/10 text-primary">
@@ -251,12 +251,12 @@ export default async function BillingPage() {
               </li>
             ))}
           </ul>
-{/*           <form className="w-full" action={createSubscription2}>
+          <form className="w-full" action={createSubscription2}>
             <StripeSubscriptionCreationButton />
-          </form> */}
+          </form>
         </div>
-      </Card>
-      <Card className="flex flex-col flex-1">
+      </Card> */}
+{/*       <Card className="flex flex-col flex-1">
         <CardContent className="py-8">
           <div>
             <h3 className="inline-flex px-4 py-1 rounded-full text-sm font-semibold tracking-wide uppercase bg-primary/10 text-primary">
@@ -282,11 +282,11 @@ export default async function BillingPage() {
               </li>
             ))}
           </ul>
-{/*           <form className="w-full" action={createSubscription3}>
+          <form className="w-full" action={createSubscription3}>
             <StripeSubscriptionCreationButton />
-          </form> */}
+          </form>
         </div>
-      </Card>
+      </Card> */}
     </div>
   );
 }
