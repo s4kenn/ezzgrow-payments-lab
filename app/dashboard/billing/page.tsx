@@ -544,7 +544,7 @@ export default async function BillingPage() {
         process.env.NODE_ENV == "production"
           ? (process.env.PRODUCTION_URL as string)
           : "http://localhost:3000",
-      productId: productId,
+      productId: productId as string,
     });
 
     return redirect(subscriptionUrl);
