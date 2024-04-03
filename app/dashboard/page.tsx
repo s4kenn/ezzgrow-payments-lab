@@ -5,8 +5,8 @@ const featureItemsmonth = [
   { name: "9 Social Media Posts / handle" },
   { name: "Website Development and Maintenance" },
   { name: "24/7 Support" },
-  { name: "Private Communication Channel" },
   { name: "Active Email Campaigns" },
+  { name: "Private Communication Channel" },
 ];
 
 const featureItemshalfyearly = [
@@ -68,7 +68,7 @@ export default function DashboardPage() {
           <CardContent className="py-8">
             <div>
               <h3 className="inline-flex px-4 py-1 rounded-full text-sm font-semibold tracking-wide uppercase bg-primary/10 text-primary">
-                Half Yearly
+                Coming Soon
               </h3>
             </div>
             <div className="mt-4 flex items-baseline text-6xl font-extrabold">
@@ -96,7 +96,7 @@ export default function DashboardPage() {
           <CardContent className="py-8">
             <div>
               <h3 className="inline-flex px-4 py-1 rounded-full text-sm font-semibold tracking-wide uppercase bg-primary/10 text-primary">
-                Yearly
+                Coming Soon
               </h3>
             </div>
             <div className="mt-4 flex items-baseline text-6xl font-extrabold">
