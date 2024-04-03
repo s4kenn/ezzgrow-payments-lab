@@ -622,7 +622,7 @@ export default async function BillingPage() {
               </li>
             ))}
           </ul>
-          <form className="w-full" action={() => createSubscription(process.env.STRIPE_PRICE_ID1)}>
+          <form className="w-full" action={() => createSubscription(process.env.STRIPE_PRICE_ID_MONTHLY || '')}>
             <StripeSubscriptionCreationButton />
           </form>
         </div>
@@ -653,7 +653,7 @@ export default async function BillingPage() {
               </li>
             ))}
           </ul>
-          <form className="w-full" action={() => createSubscription(process.env.STRIPE_PRICE_ID2)}>
+          <form className="w-full" action={() => createSubscription(process.env.STRIPE_PRICE_ID2 || '')}>
             <StripeSubscriptionCreationButton />
           </form>
         </div>
@@ -684,7 +684,7 @@ export default async function BillingPage() {
               </li>
             ))}
           </ul>
-          <form className="w-full" action={() => createSubscription(process.env.STRIPE_PRICE_ID3)}>
+          <form className="w-full" action={() => createSubscription(process.env.STRIPE_PRICE_ID3 || '')}>
             <StripeSubscriptionCreationButton />
           </form>
         </div>
