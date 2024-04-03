@@ -522,7 +522,7 @@ export default async function BillingPage() {
   const user = await getUser();
   const data = await getData(user?.id as string);
 
-  async function createSubscription(productId: string) {
+  async function createSubscription(priceId: string) {
     "use server";
 
     const dbUser = await prisma.user.findUnique({
@@ -544,7 +544,7 @@ export default async function BillingPage() {
         process.env.NODE_ENV == "production"
           ? (process.env.PRODUCTION_URL as string)
           : "http://localhost:3000",
-      productId: productId as string,
+      priceId: priceId,
     });
 
     return redirect(subscriptionUrl);
@@ -622,7 +622,7 @@ export default async function BillingPage() {
               </li>
             ))}
           </ul>
-          <form className="w-full" action={() => createSubscription(process.env.STRIPE_PRODUCT_ID_MONTHLY)}>
+          <form className="w-full" action={() => createSubscription(process.env.STRIPE_PRICE_ID1)}>
             <StripeSubscriptionCreationButton />
           </form>
         </div>
@@ -653,7 +653,7 @@ export default async function BillingPage() {
               </li>
             ))}
           </ul>
-          <form className="w-full" action={() => createSubscription(process.env.STRIPE_PRODUCT_ID_HALF_YEARLY)}>
+          <form className="w-full" action={() => createSubscription(process.env.STRIPE_PRICE_ID2)}>
             <StripeSubscriptionCreationButton />
           </form>
         </div>
@@ -684,7 +684,7 @@ export default async function BillingPage() {
               </li>
             ))}
           </ul>
-          <form className="w-full" action={() => createSubscription(process.env.STRIPE_PRODUCT_ID_YEARLY)}>
+          <form className="w-full" action={() => createSubscription(process.env.STRIPE_PRICE_ID3)}>
             <StripeSubscriptionCreationButton />
           </form>
         </div>
@@ -692,4 +692,3 @@ export default async function BillingPage() {
     </div>
   );
 }
-
