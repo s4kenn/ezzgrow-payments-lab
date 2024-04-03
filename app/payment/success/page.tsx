@@ -18,8 +18,7 @@ export default function SuccessRoute() {
             </h3>
             <div className="mt-2">
               <p className="text-sm text-muted-foreground">
-                Congrats on your subscription, please check your email for
-                further instructions
+                Congrats on your subscription, we will reach out to you within the next 12 hours and send the invoice to your email as well.
               </p>
             </div>
 
