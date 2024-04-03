@@ -5,6 +5,7 @@ const featureItemsmonth = [
   { name: "9 Social Media Posts / handle" },
   { name: "Website Development and Maintenance" },
   { name: "24/7 Support" },
+  { name: "Private Communication Channel" },
   { name: "Active Email Campaigns" },
 ];
 
@@ -13,6 +14,7 @@ const featureItemshalfyearly = [
   { name: "Website Development and Maintenance" },
   { name: "24/7 Support" },
   { name: "Active Email Campaigns" },
+  { name: "Private Communication Channel" },
   { name: "Robust Data Analysis" },
 ];
 
@@ -21,6 +23,7 @@ const featureItemsyearly = [
   { name: "Website Development and Maintenance" },
   { name: "24/7 Support" },
   { name: "Active Email Campaigns" },
+  { name: "Private Communication Channel" },
   { name: "Robust Data Analysis" },
   { name: "Customised GPT Tools" },
 ];
@@ -45,7 +48,7 @@ export default function DashboardPage() {
               <span className="ml-1 text-2xl text-muted-foreground">/mo</span>
             </div>
             <p className="mt-5 text-lg text-muted-foreground">
-              Subscribe us for a month and get
+              Subscribe for a month and get
             </p>
           </CardContent>
           <div className="flex-1 flex flex-col justify-between px-6 pt-6 pb-8 bg-secondary rounded-lg m-1 space-y-6 sm:p-10 sm:pt-6">
@@ -73,7 +76,7 @@ export default function DashboardPage() {
               <span className="ml-1 text-2xl text-muted-foreground">/hy</span>
             </div>
             <p className="mt-5 text-lg text-muted-foreground">
-              Subscribe us for 6 months and get
+              Subscribe for 6 months and get
             </p>
           </CardContent>
           <div className="flex-1 flex flex-col justify-between px-6 pt-6 pb-8 bg-secondary rounded-lg m-1 space-y-6 sm:p-10 sm:pt-6">
@@ -101,7 +104,7 @@ export default function DashboardPage() {
               <span className="ml-1 text-2xl text-muted-foreground">/y</span>
             </div>
             <p className="mt-5 text-lg text-muted-foreground">
-              Subscribe us for a year and get
+              Subscribe for a year and get
             </p>
           </CardContent>
           <div className="flex-1 flex flex-col justify-between px-6 pt-6 pb-8 bg-secondary rounded-lg m-1 space-y-6 sm:p-10 sm:pt-6">
